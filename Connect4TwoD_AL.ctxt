@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Connect4TwoD_AL
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=board\ moveRow\ moveCol\ player
+comment2.target=java.lang.String[][]\ updateBoard(java.lang.String[][],\ int,\ int,\ java.lang.String)
+comment2.text=\ Updates\ the\ board\n
+comment3.params=board
+comment3.target=void\ drawBoard(java.lang.String[][])
+comment3.text=\ Draws\ the\ board\n
+comment4.params=board
+comment4.target=java.lang.String\ checkWin(java.lang.String[][])
+comment4.text=\ Checks\ if\ the\ computer\ or\ player\ has\ won,\ or\ if\ the\ board\ is\ full\ \n
+comment5.params=board
+comment5.target=int\ computerMove(java.lang.String[][])
+comment5.text=\ Decides\ the\ computer's\ move\n\ NOTE\:\ can\ only\ detect\ 3\ non-consecutive\ pieces\ diagonally,\ vertically,\ or\ horizontally.\n\ Computer\ also\ has\ some\ blind\ spots\ if\ player\ moves\ in\ a\ certain\ way\n
+comment6.params=
+comment6.target=boolean\ repeat()
+comment6.text=\ Determines\ if\ the\ player\ wants\ to\ play\ again\n
+numComments=7
